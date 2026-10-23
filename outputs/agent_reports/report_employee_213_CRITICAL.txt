@@ -1,0 +1,44 @@
+FROM    : churn-agent@company.com
+TO      : hr@company.com
+SUBJECT : 🔴 [CRITICAL RISK] Employee #213 — Churn Alert
+DATE    : 2026-07-01 14:28
+============================================================
+
+Dear HR Team,
+
+The Churn Prediction Agent has flagged Employee #213.
+
+  Risk Level        : 🔴 CRITICAL
+  Churn Probability : 92.3%
+  Actual Outcome    : LEFT ✗  (ground truth from test set)
+
+────────────────────────────────────────────────────────────
+TOP RISK DRIVERS & RECOMMENDED ACTIONS
+────────────────────────────────────────────────────────────
+
+  [URGENT] 1. Recognition
+     Current Value : No
+     SHAP Score    : +0.2710
+     Action        : Implement recognition program. Publicly acknowledge contributions in team settings.
+
+  [URGENT] 2. Job Stability
+     Current Value : No
+     SHAP Score    : +0.2329
+     Action        : Employee feels job is unstable. Provide reassurance and clarity on role security.
+
+  [URGENT] 3. Get Deserved Promotion
+     Current Value : No
+     SHAP Score    : +0.1791
+     Action        : Review promotion eligibility. If overdue, initiate promotion discussion immediately.
+
+────────────────────────────────────────────────────────────
+GENERAL RECOMMENDATION
+────────────────────────────────────────────────────────────
+
+  ⚡ Schedule an IMMEDIATE retention meeting with this employee.
+  ⚡ Escalate to department head and senior HR within 24 hours.
+
+────────────────────────────────────────────────────────────
+This is an automated message from the Employee Churn Prediction Agent.
+Do not reply to this email.
+============================================================

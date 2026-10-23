@@ -1,0 +1,181 @@
+
+    <html>
+    <head>
+        <style>
+            body {
+                font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                color: #333333;
+                background-color: #F9F9F9;
+                margin: 0;
+                padding: 20px;
+            }
+            .container {
+                max-width: 600px;
+                background-color: #FFFFFF;
+                border: 1px solid #E0E0E0;
+                border-radius: 8px;
+                padding: 24px;
+                box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+                margin: 0 auto;
+            }
+            .header {
+                border-bottom: 2px solid #E0E0E0;
+                padding-bottom: 12px;
+                margin-bottom: 20px;
+            }
+            .logo {
+                font-size: 20px;
+                font-weight: bold;
+                color: #1976D2;
+            }
+            .alert-banner {
+                background-color: #FFEBEE;
+                border-left: 5px solid #D32F2F;
+                padding: 16px;
+                border-radius: 4px;
+                margin-bottom: 24px;
+            }
+            .risk-badge {
+                display: inline-block;
+                background-color: #D32F2F;
+                color: #FFFFFF;
+                padding: 4px 10px;
+                font-size: 14px;
+                font-weight: bold;
+                border-radius: 4px;
+                margin-top: 6px;
+            }
+            .metrics-table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-bottom: 24px;
+            }
+            .metrics-table td {
+                padding: 10px;
+                border-bottom: 1px solid #EEEEEE;
+            }
+            .metrics-table .label {
+                font-weight: bold;
+                color: #555555;
+                width: 40%;
+            }
+            .metrics-table .value {
+                text-align: right;
+                font-weight: bold;
+            }
+            .section-title {
+                font-size: 16px;
+                font-weight: bold;
+                border-bottom: 1px solid #EEEEEE;
+                padding-bottom: 6px;
+                margin-top: 24px;
+                margin-bottom: 14px;
+                color: #1976D2;
+            }
+            .recommendation-card {
+                border: 1px solid #E0E0E0;
+                border-radius: 6px;
+                padding: 14px;
+                margin-bottom: 12px;
+                background-color: #FAFAFA;
+            }
+            .priority-urgent {
+                color: #D32F2F;
+                font-weight: bold;
+                font-size: 11px;
+                text-transform: uppercase;
+                letter-spacing: 0.5px;
+            }
+            .priority-rec {
+                color: #1976D2;
+                font-weight: bold;
+                font-size: 11px;
+                text-transform: uppercase;
+                letter-spacing: 0.5px;
+            }
+            .action-text {
+                margin-top: 6px;
+                font-size: 13px;
+                color: #444444;
+                line-height: 1.4;
+            }
+            .footer {
+                margin-top: 30px;
+                border-top: 1px solid #EEEEEE;
+                padding-top: 12px;
+                font-size: 11px;
+                color: #888888;
+                text-align: center;
+                line-height: 1.5;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="logo">🎯 RETENTION INTELLIGENCE AGENT</div>
+            </div>
+            
+            <div class="alert-banner">
+                <h2 style="margin: 0; color: #D32F2F;">Churn Risk Alert: Employee #797</h2>
+                <div class="risk-badge">CRITICAL RISK LEVEL</div>
+            </div>
+            
+            <table class="metrics-table">
+                <tr>
+                    <td class="label">Analysis Date</td>
+                    <td class="value">2026-07-01 14:10</td>
+                </tr>
+                <tr>
+                    <td class="label">Churn Probability</td>
+                    <td class="value" style="color: #D32F2F; font-size: 18px;">99.6%</td>
+                </tr>
+                <tr>
+                    <td class="label">Historical Ground Truth</td>
+                    <td class="value" style="color: #D32F2F;">LEFT (Attrited) ✗</td>
+                </tr>
+            </table>
+            
+            <div class="section-title">TOP DRIVERS & TAILORED ACTIONS</div>
+    
+            <div class="recommendation-card">
+                <span class="priority-urgent">[URGENT] 1. JobTitle</span>
+                <div style="font-size: 12px; color: #666666; margin-top: 4px;">
+                    Current Value: <strong>0.7120954003407155</strong> | SHAP Impact: <strong>+1.7884</strong>
+                </div>
+                <div class="action-text"><strong>HR Recommended Action:</strong> Conduct a formal role-redefinition workshop to align the employee's current responsibilities with a more senior-level title and scope, addressing the high SHAP score associated with their current role.</div>
+            </div>
+            
+            <div class="recommendation-card">
+                <span class="priority-urgent">[URGENT] 2. Years experience lastorganization</span>
+                <div style="font-size: 12px; color: #666666; margin-top: 4px;">
+                    Current Value: <strong>1–5 yrs</strong> | SHAP Impact: <strong>+1.4119</strong>
+                </div>
+                <div class="action-text"><strong>HR Recommended Action:</strong> Implement a structured mentorship program and enroll the employee in advanced leadership training modules to accelerate their path toward a promotion, as they are currently ineligible.</div>
+            </div>
+            
+            <div class="recommendation-card">
+                <span class="priority-rec">[RECOMMENDED] 3. Business Travel</span>
+                <div style="font-size: 12px; color: #666666; margin-top: 4px;">
+                    Current Value: <strong>Frequently</strong> | SHAP Impact: <strong>+0.3257</strong>
+                </div>
+                <div class="action-text"><strong>HR Recommended Action:</strong> Review the necessity of frequent business travel and implement a hybrid or remote-work policy for non-essential travel days to improve work-life balance and reduce burnout risk.</div>
+            </div>
+            
+            <div class="section-title">GENERAL MANAGER RETENTION PLAN</div>
+            <ul style="font-size: 13px; color: #444444; padding-left: 20px; line-height: 1.5;">
+    
+                <li>⚡ <strong>Immediate Action:</strong> Schedule a face-to-face retention meeting within 24 hours.</li>
+                <li>⚡ <strong>Escalation:</strong> Notify the direct department head and senior HR leadership.</li>
+        
+            </ul>
+            
+            <div class="footer">
+                This is an automated notification from the Employee Churn Prediction Platform.<br/>
+                Please do not reply directly to this mail transmission.<br/>
+                &copy; 2026 Retention Intelligence Agent Inc.
+            </div>
+        </div>
+    </body>
+    </html>
+    

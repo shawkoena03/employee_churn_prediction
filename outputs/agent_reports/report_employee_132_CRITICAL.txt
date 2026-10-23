@@ -1,0 +1,44 @@
+FROM    : churn-agent@company.com
+TO      : hr@company.com
+SUBJECT : 🔴 [CRITICAL RISK] Employee #132 — Churn Alert
+DATE    : 2026-07-01 14:28
+============================================================
+
+Dear HR Team,
+
+The Churn Prediction Agent has flagged Employee #132.
+
+  Risk Level        : 🔴 CRITICAL
+  Churn Probability : 81.6%
+  Actual Outcome    : LEFT ✗  (ground truth from test set)
+
+────────────────────────────────────────────────────────────
+TOP RISK DRIVERS & RECOMMENDED ACTIONS
+────────────────────────────────────────────────────────────
+
+  [URGENT] 1. Job Engagement
+     Current Value : Difficult
+     SHAP Score    : +0.5899
+     Action        : Employee finds job difficult to engage with. Review role fit and responsibilities.
+
+  [URGENT] 2. Business Travel
+     Current Value : Frequently
+     SHAP Score    : +0.2949
+     Action        : Frequent travel is a stress factor. Reduce travel frequency or offer travel allowances.
+
+  [URGENT] 3. Recognition
+     Current Value : No
+     SHAP Score    : +0.2554
+     Action        : Implement recognition program. Publicly acknowledge contributions in team settings.
+
+────────────────────────────────────────────────────────────
+GENERAL RECOMMENDATION
+────────────────────────────────────────────────────────────
+
+  ⚡ Schedule an IMMEDIATE retention meeting with this employee.
+  ⚡ Escalate to department head and senior HR within 24 hours.
+
+────────────────────────────────────────────────────────────
+This is an automated message from the Employee Churn Prediction Agent.
+Do not reply to this email.
+============================================================

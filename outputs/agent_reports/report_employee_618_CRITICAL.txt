@@ -1,0 +1,30 @@
+FROM    : churn-agent@company.com
+TO      : hr@company.com
+SUBJECT : 🔴 [CRITICAL RISK] Employee #618 — Churn Alert
+DATE    : 2026-07-01 14:28
+============================================================
+
+Dear HR Team,
+
+The Churn Prediction Agent has flagged Employee #618.
+
+  Risk Level        : 🔴 CRITICAL
+  Churn Probability : 90.3%
+  Actual Outcome    : LEFT ✗  (ground truth from test set)
+
+────────────────────────────────────────────────────────────
+TOP RISK DRIVERS & RECOMMENDED ACTIONS
+────────────────────────────────────────────────────────────
+  No specific feature-based actions identified.
+
+────────────────────────────────────────────────────────────
+GENERAL RECOMMENDATION
+────────────────────────────────────────────────────────────
+
+  ⚡ Schedule an IMMEDIATE retention meeting with this employee.
+  ⚡ Escalate to department head and senior HR within 24 hours.
+
+────────────────────────────────────────────────────────────
+This is an automated message from the Employee Churn Prediction Agent.
+Do not reply to this email.
+============================================================

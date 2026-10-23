@@ -1,0 +1,6 @@
+,CV Accuracy,CV F1 Score,CV ROC-AUC,CV Recall,CV Precision,Test Accuracy,Test F1 Score,Test ROC-AUC,Test Recall,Test Precision
+Logistic Regression,0.831,0.789,0.917,0.744,0.845,0.779,0.711,0.876,0.64,0.8
+Random Forest,0.809,0.769,0.896,0.744,0.802,0.791,0.729,0.862,0.66,0.815
+XGBoost,0.83,0.793,0.897,0.771,0.819,0.791,0.735,0.886,0.68,0.8
+LightGBM,0.807,0.769,0.901,0.756,0.785,0.834,0.789,0.891,0.73,0.859
+CatBoost,0.831,0.791,0.919,0.756,0.837,0.804,0.747,0.894,0.68,0.829

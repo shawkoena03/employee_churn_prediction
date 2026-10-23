@@ -1,0 +1,44 @@
+FROM    : churn-agent@company.com
+TO      : hr@company.com
+SUBJECT : 🔴 [CRITICAL RISK] Employee #617 — Churn Alert
+DATE    : 2026-07-01 14:28
+============================================================
+
+Dear HR Team,
+
+The Churn Prediction Agent has flagged Employee #617.
+
+  Risk Level        : 🔴 CRITICAL
+  Churn Probability : 99.4%
+  Actual Outcome    : LEFT ✗  (ground truth from test set)
+
+────────────────────────────────────────────────────────────
+TOP RISK DRIVERS & RECOMMENDED ACTIONS
+────────────────────────────────────────────────────────────
+
+  [URGENT] 1. Job Opportunities
+     Current Value : Yes
+     SHAP Score    : +0.6435
+     Action        : Employee perceives better opportunities elsewhere. Conduct retention conversation.
+
+  [URGENT] 2. Distance to work
+     Current Value : Far
+     SHAP Score    : +0.3861
+     Action        : Long commute is a risk factor. Explore remote/hybrid work arrangements.
+
+  [URGENT] 3. Recognition
+     Current Value : No
+     SHAP Score    : +0.3718
+     Action        : Implement recognition program. Publicly acknowledge contributions in team settings.
+
+────────────────────────────────────────────────────────────
+GENERAL RECOMMENDATION
+────────────────────────────────────────────────────────────
+
+  ⚡ Schedule an IMMEDIATE retention meeting with this employee.
+  ⚡ Escalate to department head and senior HR within 24 hours.
+
+────────────────────────────────────────────────────────────
+This is an automated message from the Employee Churn Prediction Agent.
+Do not reply to this email.
+============================================================

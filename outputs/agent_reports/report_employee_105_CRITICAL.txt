@@ -1,0 +1,39 @@
+FROM    : churn-agent@company.com
+TO      : hr@company.com
+SUBJECT : 🔴 [CRITICAL RISK] Employee #105 — Churn Alert
+DATE    : 2026-07-01 14:28
+============================================================
+
+Dear HR Team,
+
+The Churn Prediction Agent has flagged Employee #105.
+
+  Risk Level        : 🔴 CRITICAL
+  Churn Probability : 98.1%
+  Actual Outcome    : LEFT ✗  (ground truth from test set)
+
+────────────────────────────────────────────────────────────
+TOP RISK DRIVERS & RECOMMENDED ACTIONS
+────────────────────────────────────────────────────────────
+
+  [URGENT] 1. Job Opportunities
+     Current Value : Yes
+     SHAP Score    : +0.6241
+     Action        : Employee perceives better opportunities elsewhere. Conduct retention conversation.
+
+  [URGENT] 2. Job Engagement
+     Current Value : Difficult
+     SHAP Score    : +0.1954
+     Action        : Employee finds job difficult to engage with. Review role fit and responsibilities.
+
+────────────────────────────────────────────────────────────
+GENERAL RECOMMENDATION
+────────────────────────────────────────────────────────────
+
+  ⚡ Schedule an IMMEDIATE retention meeting with this employee.
+  ⚡ Escalate to department head and senior HR within 24 hours.
+
+────────────────────────────────────────────────────────────
+This is an automated message from the Employee Churn Prediction Agent.
+Do not reply to this email.
+============================================================

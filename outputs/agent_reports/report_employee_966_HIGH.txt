@@ -1,0 +1,44 @@
+FROM    : churn-agent@company.com
+TO      : hr@company.com
+SUBJECT : 🟠 [HIGH RISK] Employee #966 — Churn Alert
+DATE    : 2026-07-01 14:28
+============================================================
+
+Dear HR Team,
+
+The Churn Prediction Agent has flagged Employee #966.
+
+  Risk Level        : 🟠 HIGH
+  Churn Probability : 67.5%
+  Actual Outcome    : STAYED ✓  (ground truth from test set)
+
+────────────────────────────────────────────────────────────
+TOP RISK DRIVERS & RECOMMENDED ACTIONS
+────────────────────────────────────────────────────────────
+
+  [URGENT] 1. Job Engagement
+     Current Value : Difficult
+     SHAP Score    : +0.6579
+     Action        : Employee finds job difficult to engage with. Review role fit and responsibilities.
+
+  [URGENT] 2. Work Live Balance
+     Current Value : Difficult
+     SHAP Score    : +0.3775
+     Action        : Enforce strict after-hours communication policy. Offer remote work options.
+
+  [URGENT] 3. OverTime
+     Current Value : Yes
+     SHAP Score    : +0.3022
+     Action        : Audit overtime frequency. Redistribute tasks to reduce overreliance on this employee.
+
+────────────────────────────────────────────────────────────
+GENERAL RECOMMENDATION
+────────────────────────────────────────────────────────────
+
+  ⚠️  Schedule a retention conversation within this week.
+  ⚠️  Review compensation and growth path.
+
+────────────────────────────────────────────────────────────
+This is an automated message from the Employee Churn Prediction Agent.
+Do not reply to this email.
+============================================================

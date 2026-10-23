@@ -1,0 +1,34 @@
+FROM    : churn-agent@company.com
+TO      : hr@company.com
+SUBJECT : 🟠 [HIGH RISK] Employee #550 — Churn Alert
+DATE    : 2026-07-01 14:28
+============================================================
+
+Dear HR Team,
+
+The Churn Prediction Agent has flagged Employee #550.
+
+  Risk Level        : 🟠 HIGH
+  Churn Probability : 64.8%
+  Actual Outcome    : LEFT ✗  (ground truth from test set)
+
+────────────────────────────────────────────────────────────
+TOP RISK DRIVERS & RECOMMENDED ACTIONS
+────────────────────────────────────────────────────────────
+
+  [URGENT] 1. Job Opportunities
+     Current Value : Yes
+     SHAP Score    : +0.7136
+     Action        : Employee perceives better opportunities elsewhere. Conduct retention conversation.
+
+────────────────────────────────────────────────────────────
+GENERAL RECOMMENDATION
+────────────────────────────────────────────────────────────
+
+  ⚠️  Schedule a retention conversation within this week.
+  ⚠️  Review compensation and growth path.
+
+────────────────────────────────────────────────────────────
+This is an automated message from the Employee Churn Prediction Agent.
+Do not reply to this email.
+============================================================

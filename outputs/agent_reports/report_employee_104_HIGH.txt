@@ -1,0 +1,44 @@
+FROM    : churn-agent@company.com
+TO      : hr@company.com
+SUBJECT : 🟠 [HIGH RISK] Employee #104 — Churn Alert
+DATE    : 2026-07-01 14:28
+============================================================
+
+Dear HR Team,
+
+The Churn Prediction Agent has flagged Employee #104.
+
+  Risk Level        : 🟠 HIGH
+  Churn Probability : 65.5%
+  Actual Outcome    : LEFT ✗  (ground truth from test set)
+
+────────────────────────────────────────────────────────────
+TOP RISK DRIVERS & RECOMMENDED ACTIONS
+────────────────────────────────────────────────────────────
+
+  [URGENT] 1. Job Engagement
+     Current Value : Difficult
+     SHAP Score    : +0.7568
+     Action        : Employee finds job difficult to engage with. Review role fit and responsibilities.
+
+  [URGENT] 2. Recognition
+     Current Value : No
+     SHAP Score    : +0.2400
+     Action        : Implement recognition program. Publicly acknowledge contributions in team settings.
+
+  [URGENT] 3. Get Deserved Promotion
+     Current Value : No
+     SHAP Score    : +0.1921
+     Action        : Review promotion eligibility. If overdue, initiate promotion discussion immediately.
+
+────────────────────────────────────────────────────────────
+GENERAL RECOMMENDATION
+────────────────────────────────────────────────────────────
+
+  ⚠️  Schedule a retention conversation within this week.
+  ⚠️  Review compensation and growth path.
+
+────────────────────────────────────────────────────────────
+This is an automated message from the Employee Churn Prediction Agent.
+Do not reply to this email.
+============================================================

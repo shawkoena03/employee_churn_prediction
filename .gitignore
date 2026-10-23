@@ -1,0 +1,27 @@
+# Environment secrets
+.env
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Model training intermediate artifacts
+catboost_info/
+
+# Environments
+env/
+venv/
+.venv/
+ENV/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
